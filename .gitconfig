@@ -1,0 +1,25 @@
+[user]
+	email = jflzzz@yopmail.com
+	name = Jean-Francois
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = auto
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  lg  = log -M --decorate --graph --oneline
+
+[core]
+	editor = nano
+	excludesfile = /home/jfrancois/.gitignore_global
+[push]
+	default = matching
