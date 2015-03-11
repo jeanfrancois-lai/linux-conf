@@ -8,7 +8,7 @@ Copy the files into the home directory : ```~/.```
 2) Configuration
 -------
 
-** Edit the .gitconfig file**
+**Edit the .gitconfig file**
 
  ```
  [user]
@@ -20,3 +20,4 @@ Copy the files into the home directory : ```~/.```
 -------
 
 > Written with [StackEdit](https://stackedit.io/).
+
