@@ -1,0 +1,23 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[old_default]]
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    font = Monospace 10
+    background_color = "#300a10"
+    use_system_font = False
+    background_image = None
+  [[default]]
+    use_theme_colors = False
+    background_color = "#300a10"
+    foreground_color = "#ffffff"
+    palette = "#353535:#d31414:#14d314:#d3d314:#1414d3:#d314d3:#14d3d3:#d7d7d7:#5d5d5d:#f16e6e:#6ef16e:#f1f16e:#6e6ef1:#f16ef1:#6ef1f1:#ffffff"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
